@@ -1,0 +1,27 @@
+#root {
+  min-width: 100vw;
+  /* text-align: center; */
+}
+
+h1 {
+  &.coucou {
+    color: blueviolet;
+  }
+}
+
+.NotePageRoot {
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-flex-direction: column;
+  -ms-flex-direction: column;
+  flex-direction: column;
+}
+
+@media screen and (min-width: 801px) {
+  .NotePageRoot {
+    height: 100vh;
+    overflow-x: hidden;
+  }
+}

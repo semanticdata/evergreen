@@ -1,0 +1,19 @@
+.NoteColumnsContainer {
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-flex: 1;
+  -webkit-flex-grow: 1;
+  -ms-flex-positive: 1;
+  flex-grow: 1;
+  -webkit-transition: width 100ms cubic-bezier(0.19, 1, 0.22, 1);
+  transition: width 100ms cubic-bezier(0.19, 1, 0.22, 1);
+  flex-direction: row;
+}
+
+@media screen and (max-width: 800px) {
+  .NoteColumnsContainer {
+    width: unset !important;
+  }
+}

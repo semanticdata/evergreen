@@ -1,0 +1,68 @@
+.NoteContainer {
+  .Footer {
+    max-width: calc(100vw - 16px);
+    margin: 16px;
+    padding: 16px;
+    background-color: #fafafc;
+    border-radius: 16px;
+  }
+
+  .BacklinksContainer {
+    display: -webkit-box;
+    display: -webkit-flex;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-flex-wrap: wrap;
+    -ms-flex-wrap: wrap;
+    flex-wrap: wrap;
+    -webkit-box-pack: justify;
+    -webkit-justify-content: space-between;
+    -ms-flex-pack: justify;
+    justify-content: space-between;
+    position: relative;
+
+    .NoteLink {
+      width: 282px;
+      display: -webkit-box;
+      -webkit-box-orient: vertical;
+      -webkit-line-clamp: 3;
+      overflow: hidden;
+      user-select: none;
+      margin: 8px -8px 0px;
+      padding: 0 8px;
+      border-radius: 8px;
+      cursor: pointer;
+      background-color: transparent;
+      transition: background-color 100ms linear 0s;
+      min-height: 48px;
+      display: flex;
+      align-items: center;
+      flex-direction: row;
+      -webkit-text-decoration: none;
+      text-decoration: none;
+      font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto,
+        Helvetica, Arial, sans-serif, "Apple Color Emoji", "Segoe UI Emoji",
+        "Segoe UI Symbol";
+      font-size: 14px;
+      line-height: 16px;
+      color: rgb(102, 102, 102);
+
+      &:hover,
+      &.Hovered {
+        transition: background-color 50ms linear 0s;
+        background-color: rgba(0, 0, 0, 0.05);
+      }
+
+      &.open {
+        font-weight: bold;
+      }
+    }
+  }
+}
+
+@media screen and (max-width: 800px) {
+  .NoteContainer .Footer {
+    margin: 8px;
+    padding: 8px;
+  }
+}

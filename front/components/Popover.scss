@@ -1,0 +1,42 @@
+.Popover {
+  --arrowBaseWidth: 32px;
+  --arrowLength: 16px;
+  --backgroundColor: white;
+  pointer-events: none;
+  background-color: var(--backgroundColor);
+  border-radius: 8px;
+  margin: var(--arrowLength);
+  z-index: 200;
+  filter: drop-shadow(rgba(0, 0, 0, 0.08) 0px 0px 10px)
+    drop-shadow(rgba(0, 0, 0, 0.04) 0px 20px 50px)
+    drop-shadow(rgba(0, 0, 0, 0.15) 0px 0px 1px);
+
+  a {
+    text-decoration: none;
+  }
+
+  .HoveredNote {
+    --width: calc((625px) * var(--scaleFactor));
+    --scaleFactor: 0.8;
+    --height: calc(100vh - 64px);
+    max-height: 400px;
+    overflow: hidden;
+
+    .HoveredNoteInterior {
+      --margin: calc(32px * var(--scaleFactor));
+      margin: var(--margin);
+      max-width: unset;
+      width: calc(var(--width) - var(--margin) * 2);
+      height: calc(var(--width) - var(--margin) * 2);
+      transform: unset;
+
+      & > * {
+        max-width: unset;
+        width: calc((var(--width) - var(--margin) * 2) / var(--scaleFactor));
+        height: calc((var(--height) - var(--margin) * 2) / var(--scaleFactor));
+        transform: scale(var(--scaleFactor));
+        transform-origin: left top;
+      }
+    }
+  }
+}
