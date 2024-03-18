@@ -7,7 +7,7 @@ export const noteToMarkdownContent = (base, note) => {
     WIKILINKSregex,
     (_match, index, _block, title) => {
       return `[${title ?? index}](${base}/${encodeURIComponent(index)})`;
-    },
+    }
   );
 };
 
