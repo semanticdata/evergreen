@@ -1,6 +1,31 @@
-# Evergreen
+# 🌲 Evergreen
 
-Yet another one of these.
+Yet another one of these static website to display Markdown notes (eg from an Obsidian vault) in the style of Andy Matuschak evergreen notes.
+
+Source: [unstaticlabs/evergreen-notes-markdown-website](https://github.com/unstaticlabs/evergreen-notes-markdown-website)
+
+## Why?
+
+A digital garden is a way to think and build in public. This is a powerful tool to develop your thinking.
+
+## Goals
+
+- Make publishing and sharing notes in the Evergreen format as straightforward as possible.
+- Make it an intuitive and beautiful experience for the user.
+
+## Evergreen Notes
+
+Evergreen notes are a convenient and natural way to organise thoughts. They are:
+
+- Atomic
+- Concept-centric
+- Densely linked
+
+## Obsidian
+
+Obsidian is a great, simple tool to browse, edit, and organise a vault of Markdown files. With stacked tabs it provides a similar experience to this UI to linking and browsing notes. Obsidian provides an option to publish notes, but we aim to separate concerns and avoid lockin.
+
+This website developed with React+Vite is a very simplified application to display Markdown files as stacked notes. It is greatly, heavily inspired from Andy Matuschak's notes website: <https://notes.andymatuschak.org/About_these_notes>. It requires a separate, automated process in order to build an index of backlinks.
 
 ## TODO
 
