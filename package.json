@@ -11,7 +11,7 @@
   ],
   "type": "module",
   "scripts": {
-    "start": "vite",
+    "start": "rm notes/index.json && index-wikilinks notes notes/index.json && vite",
     "dev": "vite",
     "build": "vite build",
     "build:index": "index-wikilinks notes notes/index.json",
@@ -20,21 +20,21 @@
   },
   "license": "MIT",
   "dependencies": {
-    "obsidian-index-wikilinks": "https://github.com/ValentinViennot/np-obsidian-index-wikilinks.git",
+    "obsidian-index-wikilinks": "github:ValentinViennot/np-obsidian-index-wikilinks",
     "react": "^18.2.0",
     "react-dom": "^18.2.0",
     "react-markdown": "^8.0.7",
-    "react-router-dom": "^6.15.0",
-    "sass": "^1.66.1"
+    "react-router-dom": "^6.22.3",
+    "sass": "^1.72.0"
   },
   "devDependencies": {
-    "@types/react": "^18.2.15",
-    "@types/react-dom": "^18.2.7",
-    "@vitejs/plugin-react": "^4.0.3",
-    "eslint": "^8.45.0",
-    "eslint-plugin-react": "^7.32.2",
+    "@types/react": "^18.2.67",
+    "@types/react-dom": "^18.2.22",
+    "@vitejs/plugin-react": "^4.2.1",
+    "eslint": "^8.57.0",
+    "eslint-plugin-react": "^7.34.1",
     "eslint-plugin-react-hooks": "^4.6.0",
-    "eslint-plugin-react-refresh": "^0.4.3",
-    "vite": "^4.4.5"
+    "eslint-plugin-react-refresh": "^0.4.6",
+    "vite": "^4.5.2"
   }
 }

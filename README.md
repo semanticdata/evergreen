@@ -57,3 +57,14 @@ Icebox
 
 - [ ] Support links to blocks
 - [ ] Note index array --> show menu?
+
+## Relevant Links
+
+- [Eleventy Plugin Vite](https://www.npmjs.com/package/@11ty/eleventy-plugin-vite)
+  - Runs Vite as middleware in Eleventy Dev Server (see: --incremental)
+- [Vite Plugin Eleventy](https://www.npmjs.com/package/vite-plugin-eleventy)
+  - Use 11ty to build HTML without compiling during development.
+- [Slinkity](https://www.npmjs.com/package/slinkity)
+  - Unlocks component frameworks like React. (use .jsx instead of .html .liquid)
+- [Vite Plugin React](https://www.npmjs.com/package/@vitejs/plugin-react)
+  - Default Vite plugin for React projects.

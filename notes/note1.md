@@ -10,3 +10,5 @@
 - note2.2.2 shouldn't be indexed
 - [[note that doesn't exist]]
 - [link to outside](https://google.com/)
+- [[about]]
+- [[note3]]
