@@ -1,4 +1,4 @@
-name: Build and Deploy to GitHub Pages
+name: Build and Deploy to GitHub Pages (Bun)
 
 on:
   workflow_dispatch:
@@ -22,18 +22,18 @@ jobs:
     steps:
       - name: Checkout
         uses: actions/checkout@v4
-      - name: Setup Node
-        uses: actions/setup-node@v4
+      - name: Setup Bun
+        uses: oven-sh/setup-bun@v1
         with:
-          node-version: 18
+          bun-version: latest
       - name: Install dependencies
-        run: npm i
+        run: bun i
       - name: Build Index
-        run: npm run build:index
+        run: bun run build:index
       - name: Move Index
         run: mv notes public/notes
       - name: Build
-        run: npm run build
+        run: bun run build
       - name: Upload artifact
         uses: actions/upload-pages-artifact@v3
       - name: Deploy to GitHub Pages
