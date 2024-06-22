@@ -17,7 +17,9 @@
     "build": "npx vite build",
     "build:index": "npx index-wikilinks notes notes/index.json",
     "lint": "npx eslint . --ext js,jsx --report-unused-disable-directives --max-warnings 0",
-    "preview": "npx vite preview"
+    "preview": "npx vite preview",
+    "check": "npx prettier --check .",
+    "format": "npx prettier --write ."
   },
   "license": "MIT",
   "dependencies": {

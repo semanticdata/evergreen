@@ -1,8 +1,6 @@
 ## Decet invisamque habuit intus nihil
 
-Lorem markdownum turea ullus; cum tamen amnemque, aret ipsi nam tuo suo
-simulacra. Quas lunaria dum ceu potest undis verso sponsi largoque me dextra
-clarus apertum; a facta dumque. Contendite nobis.
+Lorem markdownum turea ullus; cum tamen amnemque, aret ipsi nam tuo suo simulacra. Quas lunaria dum ceu potest undis verso sponsi largoque me dextra clarus apertum; a facta dumque. Contendite nobis.
 
     if (docking(3, domain) - program) {
         thunderbolt_analog(power, donationware_expansion);
@@ -35,9 +33,7 @@ clarus apertum; a facta dumque. Contendite nobis.
 
 ## Mala iam pervius est praemia ut Titan
 
-Post relictis concita **vota dare concedant**, nomen, **atra**, coma: sic semina
-triste geras! Hippotades hastae manu posito secundum hoc triumphos hic [nec
-caespite](http://utaegeus.io/ense.aspx).
+Post relictis concita **vota dare concedant**, nomen, **atra**, coma: sic semina triste geras! Hippotades hastae manu posito secundum hoc triumphos hic [nec caespite](http://utaegeus.io/ense.aspx).
 
 1. Terris miseras et suaque robore copia vultus
 2. Esse Telethusa vera stridore gaudens nitidique
@@ -47,13 +43,7 @@ caespite](http://utaegeus.io/ense.aspx).
 
 ## Licet similesque poterat latuit dona
 
-Quoquam *ille corpore* posita, fuit, enim soceri neque gravitate dixit solidoque
-missa in **fecit aethere et** videt! Coercuit opemque, inmota ferula, herbas
-omnibus detinet, unus me quin caede mundo tumulandus nutrix cornua Xanthos;
-columnae. Virgo expalluit ferebat, consedit in gemitus caelum inrequieta putant
-[artificum Cyllare](http://www.condita.net/) curat gurgite, umeris principium
-vir *sed* male. Mea corque? Et securibus pelle et impedit audit, diem et
-**culmen**.
+Quoquam _ille corpore_ posita, fuit, enim soceri neque gravitate dixit solidoque missa in **fecit aethere et** videt! Coercuit opemque, inmota ferula, herbas omnibus detinet, unus me quin caede mundo tumulandus nutrix cornua Xanthos; columnae. Virgo expalluit ferebat, consedit in gemitus caelum inrequieta putant [artificum Cyllare](http://www.condita.net/) curat gurgite, umeris principium vir _sed_ male. Mea corque? Et securibus pelle et impedit audit, diem et **culmen**.
 
 1. Obliquis canes iter sed torum
 2. Pugnet erat Delphosque si ulmus aequora ut
@@ -62,9 +52,7 @@ vir *sed* male. Mea corque? Et securibus pelle et impedit audit, diem et
 5. Terrae genuisse prohibetque iras vos
 6. Demit herbas succiduo verruntur gladiis poscenti inquit
 
-Erit est subduci fixit famem; sed cerae vaccae suorum comitemque cervice
-Herculis Dianae [calore](http://www.famulus.com/putavi-nymphas) ingratum
-studiisque auctor mutavit. Tu dum caeso aristis inmune editus!
+Erit est subduci fixit famem; sed cerae vaccae suorum comitemque cervice Herculis Dianae [calore](http://www.famulus.com/putavi-nymphas) ingratum studiisque auctor mutavit. Tu dum caeso aristis inmune editus!
 
 ## Links
 

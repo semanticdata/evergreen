@@ -1,8 +1,6 @@
 ## Comae nocuisse
 
-Lorem markdownum erigitur temptat velles sibi amans sub Aeacidae sed! Dixit erat
-anser diversaque, **manusque**, auras oracula pudet illis venti, crescitque et.
-Solutis contraria ventis.
+Lorem markdownum erigitur temptat velles sibi amans sub Aeacidae sed! Dixit erat anser diversaque, **manusque**, auras oracula pudet illis venti, crescitque et. Solutis contraria ventis.
 
     if (cloud_technology_table(analyst) * bash_of) {
         partition = cpa_ppc;
@@ -26,18 +24,11 @@ Solutis contraria ventis.
 
 ## Ad Pallantias contigerant sanguine
 
-Videt meis clades egerit recondidit, qua datque traherent *silva*, fatum levis
-sceptra quae; lactente pinna! Tracti heros, collocat [tenebat
-acrior](http://urbem.org/domospatrem), nec est ambit et quicquid confundant
-migrare.
+Videt meis clades egerit recondidit, qua datque traherent _silva_, fatum levis sceptra quae; lactente pinna! Tracti heros, collocat [tenebat acrior](http://urbem.org/domospatrem), nec est ambit et quicquid confundant migrare.
 
 ## Non riget natas dumque clipeum reor favilla
 
-Laevum murmure abstrahere **Cyclopis rogantem Achilles** deducite nec, cui
-adiciunt locus, non sanguineae! Babylonia fixerat fide, falsum, causas solique,
-iuncisque sedit. Me inicit humani patrias facinus reliquit et vinum, vel an
-velamina pennis, fluentum et, et. Tellus utraque precanti corripiunt, euntem
-facit sine; **publica siccoque** inquit omnia.
+Laevum murmure abstrahere **Cyclopis rogantem Achilles** deducite nec, cui adiciunt locus, non sanguineae! Babylonia fixerat fide, falsum, causas solique, iuncisque sedit. Me inicit humani patrias facinus reliquit et vinum, vel an velamina pennis, fluentum et, et. Tellus utraque precanti corripiunt, euntem facit sine; **publica siccoque** inquit omnia.
 
 - Libidinis Maiaque
 - Nunc sorores Tenedonque amas Theron
@@ -47,14 +38,9 @@ facit sine; **publica siccoque** inquit omnia.
 
 ## Victa et Iliacum fratrum pater inrequietus Turne
 
-Fulmina hoc est venit gesserit increvit silvae est, tabe dimittit turbine
-messis, quoque, nudata aequora Thestorides. Movet [Latio](http://invocat.com/),
-caelo damna iuveni virent *erroribus trabemque* letoque o *morte nocte ibant*;
-generi mea auspiciis. Novis mihi dixit aliquid aurea perspicuas omnes terrae
-voluisse armorum somno.
+Fulmina hoc est venit gesserit increvit silvae est, tabe dimittit turbine messis, quoque, nudata aequora Thestorides. Movet [Latio](http://invocat.com/), caelo damna iuveni virent _erroribus trabemque_ letoque o _morte nocte ibant_; generi mea auspiciis. Novis mihi dixit aliquid aurea perspicuas omnes terrae voluisse armorum somno.
 
-Aurum Alcyonen crimina Aurora? Lumina Ixione, esse voluit ac umida in guttura
-digni aetas est arma fibris iungere licentia felix, Eurytion.
+Aurum Alcyonen crimina Aurora? Lumina Ixione, esse voluit ac umida in guttura digni aetas est arma fibris iungere licentia felix, Eurytion.
 
 ## Links
 

@@ -1,41 +1,41 @@
 /* eslint-disable react/prop-types */
-import { useEffect, useState } from "react";
+import {useEffect, useState} from "react"
 
-import Db from "../db/Db";
+import Db from "../db/Db"
 
-import ReactMarkdown from "react-markdown";
+import ReactMarkdown from "react-markdown"
 
-import { noteToMarkdownContent, useBase } from "../utils";
+import {noteToMarkdownContent, useBase} from "../utils"
 
-import "./Popover.scss";
+import "./Popover.scss"
 
-const Popover = ({ elementPosition, noteId }) => {
-  const [position, setPosition] = useState({ x: 0, y: 0 });
-  const [note, setNote] = useState(null);
+const Popover = ({elementPosition, noteId}) => {
+  const [position, setPosition] = useState({x: 0, y: 0})
+  const [note, setNote] = useState(null)
 
-  const base = useBase();
+  const base = useBase()
 
   useEffect(() => {
     let newPosition = {
       x: 0,
       y: elementPosition.top + elementPosition.height / 2,
-    };
+    }
     const availableSpaceRightOfTheElement =
-      window.innerWidth - elementPosition.right;
+      window.innerWidth - elementPosition.right
     if (availableSpaceRightOfTheElement > 500)
-      newPosition.x = elementPosition.right;
-    else newPosition.x = elementPosition.left - 500;
-    setPosition(newPosition);
+      newPosition.x = elementPosition.right
+    else newPosition.x = elementPosition.left - 500
+    setPosition(newPosition)
   }, [
     elementPosition.height,
     elementPosition.left,
     elementPosition.right,
     elementPosition.top,
-  ]);
+  ])
 
   useEffect(() => {
-    Db.getNote(noteId).then((n) => setNote(n));
-  }, [noteId]);
+    Db.getNote(noteId).then((n) => setNote(n))
+  }, [noteId])
 
   return (
     <div
@@ -60,7 +60,7 @@ const Popover = ({ elementPosition, noteId }) => {
         </div>
       </div>
     </div>
-  );
-};
+  )
+}
 
-export default Popover;
+export default Popover

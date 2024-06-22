@@ -1,12 +1,12 @@
 /* eslint-disable react/prop-types */
-import { useEffect, useState } from "react";
-import { useBase, noteToMarkdownContent } from "../utils";
+import {useEffect, useState} from "react"
+import {useBase, noteToMarkdownContent} from "../utils"
 
-import ReactMarkdown from "react-markdown";
-import Footer from "./Footer";
-import NoteLink from "./NoteLink";
+import ReactMarkdown from "react-markdown"
+import Footer from "./Footer"
+import NoteLink from "./NoteLink"
 
-import "./NoteContainer.scss";
+import "./NoteContainer.scss"
 
 const NoteContainer = ({
   style,
@@ -17,25 +17,25 @@ const NoteContainer = ({
   scrollToNote,
   showPopoverForNote,
 }) => {
-  const [noteContent, setNoteContent] = useState("Loading...");
+  const [noteContent, setNoteContent] = useState("Loading...")
 
-  const base = useBase();
-
-  useEffect(() => {
-    if (note.content === undefined) return;
-    setNoteContent(noteToMarkdownContent(base, note));
-  }, [note, base]);
+  const base = useBase()
 
   useEffect(() => {
-    scrollToNote();
+    if (note.content === undefined) return
+    setNoteContent(noteToMarkdownContent(base, note))
+  }, [note, base])
+
+  useEffect(() => {
+    scrollToNote()
     // eslint-disable-next-line react-hooks/exhaustive-deps
-  }, []);
+  }, [])
 
   return (
     <main className={`NoteContainer ${overlay ? "Overlay" : ""}`} style={style}>
       <div
         className="PresentedNote"
-        style={{ opacity: verticalMode ? 0 : undefined }}
+        style={{opacity: verticalMode ? 0 : undefined}}
       >
         <div className="NoteContainer">
           <div className="PrimaryNote">
@@ -48,7 +48,7 @@ const NoteContainer = ({
               <div className="MarkdownContainer">
                 <ReactMarkdown
                   components={{
-                    a: ({ ...props }) => (
+                    a: ({...props}) => (
                       <NoteLink
                         href={props.href}
                         openNoteId={note.id}
@@ -79,7 +79,7 @@ const NoteContainer = ({
         <></>
       )}
     </main>
-  );
-};
+  )
+}
 
-export default NoteContainer;
+export default NoteContainer

@@ -1,13 +1,13 @@
 /* eslint-disable react/prop-types */
-import { useCallback, useEffect, useState } from "react";
-import { useNavigate, useSearchParams } from "react-router-dom";
+import {useCallback, useEffect, useState} from "react"
+import {useNavigate, useSearchParams} from "react-router-dom"
 
-import { useBase } from "../utils";
+import {useBase} from "../utils"
 
-import "./NoteLink.scss";
+import "./NoteLink.scss"
 
 const isLinkRemote = (href) =>
-  new URL(document.baseURI).origin !== new URL(href, document.baseURI).origin;
+  new URL(document.baseURI).origin !== new URL(href, document.baseURI).origin
 
 const NoteLink = ({
   href,
@@ -17,45 +17,45 @@ const NoteLink = ({
   scrollToNote,
   showPopoverForNote,
 }) => {
-  const navigate = useNavigate();
+  const navigate = useNavigate()
 
-  const [isRemote, setIsRemote] = useState(false);
-  const [isTargetOpen, setIsTargetOpen] = useState(false);
-  const [targetNoteId, setTargetNoteId] = useState("");
-  const setSearchParams = useSearchParams()[1];
+  const [isRemote, setIsRemote] = useState(false)
+  const [isTargetOpen, setIsTargetOpen] = useState(false)
+  const [targetNoteId, setTargetNoteId] = useState("")
+  const setSearchParams = useSearchParams()[1]
 
-  const base = useBase();
+  const base = useBase()
 
   useEffect(() => {
-    setIsRemote(isLinkRemote(href));
-  }, [href]);
+    setIsRemote(isLinkRemote(href))
+  }, [href])
 
   useEffect(() => {
     setTargetNoteId(
       decodeURIComponent(href.slice(base.length === 1 ? 1 : base.length + 1)),
-    );
-  }, [href, base]);
+    )
+  }, [href, base])
 
   useEffect(() => {
-    setIsTargetOpen(noteIdsStack.includes(targetNoteId));
-  }, [noteIdsStack, targetNoteId]);
+    setIsTargetOpen(noteIdsStack.includes(targetNoteId))
+  }, [noteIdsStack, targetNoteId])
 
   const extractPathAndAddToStack = useCallback(
     (mouseEvent) => {
-      if (isRemote) return;
-      mouseEvent.preventDefault();
-      const isSmallScreen = window.innerWidth < 800;
+      if (isRemote) return
+      mouseEvent.preventDefault()
+      const isSmallScreen = window.innerWidth < 800
       if (isSmallScreen) {
-        navigate(`/${encodeURIComponent(targetNoteId)}`);
-        return;
+        navigate(`/${encodeURIComponent(targetNoteId)}`)
+        return
       }
       if (isTargetOpen) {
-        scrollToNote(targetNoteId);
+        scrollToNote(targetNoteId)
       } else {
-        const from = noteIdsStack.indexOf(openNoteId);
+        const from = noteIdsStack.indexOf(openNoteId)
         setSearchParams({
           stacked: [...noteIdsStack.slice(1, from + 1), targetNoteId],
-        });
+        })
       }
     },
     [
@@ -68,25 +68,25 @@ const NoteLink = ({
       openNoteId,
       setSearchParams,
     ],
-  );
+  )
 
   const onMouseEnter = useCallback(
     (e) => {
       // console.log('on mouse Enter');
-      if (isRemote) return;
+      if (isRemote) return
       showPopoverForNote({
         noteId: targetNoteId,
         elementPosition: e.target.getBoundingClientRect(),
-      });
+      })
     },
     [isRemote, showPopoverForNote, targetNoteId],
-  );
+  )
 
   const onMouseLeave = useCallback(() => {
     // console.log('on mouse Leave');
-    if (isRemote) return;
-    showPopoverForNote();
-  }, [isRemote, showPopoverForNote]);
+    if (isRemote) return
+    showPopoverForNote()
+  }, [isRemote, showPopoverForNote])
 
   return (
     <a
@@ -104,7 +104,7 @@ const NoteLink = ({
     >
       {text}
     </a>
-  );
-};
+  )
+}
 
-export default NoteLink;
+export default NoteLink

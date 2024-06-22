@@ -2,11 +2,7 @@
 
 ## Invita sunt imitantes novoque quidem septem
 
-Lorem markdownum utque, altus nurus minor lingua: ille, vix *tibi*. Adesse si
-*armos* dilexit, in rore nimium, loca? Pontus paries: per sum distantes munera
-dedere mactare et malas volucres, is Iovique quo sonum auresque Phaethon
-[vertit](http://www.in.net/famae-superas). Fama ora funesta positoris ipso,
-maternae nec est progenuit misit.
+Lorem markdownum utque, altus nurus minor lingua: ille, vix _tibi_. Adesse si _armos_ dilexit, in rore nimium, loca? Pontus paries: per sum distantes munera dedere mactare et malas volucres, is Iovique quo sonum auresque Phaethon [vertit](http://www.in.net/famae-superas). Fama ora funesta positoris ipso, maternae nec est progenuit misit.
 
     epsPoint.viewBpsAdapter(twitter_bmp * double - timeMatrix);
     if (point.onlySubdirectoryUnc(781542, biosResolution.backbone_tag_gigaflops(
@@ -24,9 +20,7 @@ maternae nec est progenuit misit.
 
 ## Optas vulnus album reliquerat quid Erymanthidas quam
 
-Vos pavor tempora. Ecce lenis ducere *candescere luxit* ardua, rerum me sine
-est! Tuam viva coniugiale quod; mare te coegerat, voco hedera flumineis patriam
-vulnere!
+Vos pavor tempora. Ecce lenis ducere _candescere luxit_ ardua, rerum me sine est! Tuam viva coniugiale quod; mare te coegerat, voco hedera flumineis patriam vulnere!
 
 1. Humus iuventa stupuit iussae temerarius fabula
 2. Culta ne fuit suis Latonia variis frons
@@ -34,9 +28,7 @@ vulnere!
 
 ## Fuit arboreae auras
 
-Viri domo dicitur parentes uritur est denique coronas remoliri. Manu laeva *iam
-portis ignota* nostra Booten non tecum, nati teque fovebat sanguine, nec ulnis,
-sustinuit. Si resque ipsa durior quoque amore esse et habebunt visaque.
+Viri domo dicitur parentes uritur est denique coronas remoliri. Manu laeva _iam portis ignota_ nostra Booten non tecum, nati teque fovebat sanguine, nec ulnis, sustinuit. Si resque ipsa durior quoque amore esse et habebunt visaque.
 
 1. Terres e de cavernas meminisse proceres vitae
 2. Orbe deum animus tum enutrivere rupit harenis
@@ -44,8 +36,7 @@ sustinuit. Si resque ipsa durior quoque amore esse et habebunt visaque.
 4. Et corpus inquit primaque
 5. Subiere cunctis relinque nuda certat vires gelidus
 
-Sepulcro ademptum, tuae. **Paternam** constantia Aonides ipsos alios, cum [telo
-testantur excipiunt](http://www.urbes.net/) ego.
+Sepulcro ademptum, tuae. **Paternam** constantia Aonides ipsos alios, cum [telo testantur excipiunt](http://www.urbes.net/) ego.
 
 ## Links
 

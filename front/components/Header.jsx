@@ -1,11 +1,11 @@
-import { useBase } from "../utils";
+import {useBase} from "../utils"
 
-import Config from "../../config.json";
+import Config from "../../config.json"
 
-import "./Header.scss";
+import "./Header.scss"
 
 const Header = () => {
-  const base = useBase();
+  const base = useBase()
 
   return (
     <header id="header">
@@ -16,7 +16,7 @@ const Header = () => {
         </a>
       ))}
     </header>
-  );
-};
+  )
+}
 
-export default Header;
+export default Header

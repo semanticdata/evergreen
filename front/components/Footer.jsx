@@ -1,11 +1,11 @@
 /* eslint-disable react/prop-types */
-import { useBase } from "../utils";
-import "./Footer.scss";
+import {useBase} from "../utils"
+import "./Footer.scss"
 
-import NoteLink from "./NoteLink";
+import NoteLink from "./NoteLink"
 
-const Footer = ({ note, showPopoverForNote, noteIdsStack, scrollToNote }) => {
-  const base = useBase();
+const Footer = ({note, showPopoverForNote, noteIdsStack, scrollToNote}) => {
+  const base = useBase()
 
   const elem = (
     <div className="Footer">
@@ -24,9 +24,9 @@ const Footer = ({ note, showPopoverForNote, noteIdsStack, scrollToNote }) => {
         ))}
       </div>
     </div>
-  );
+  )
 
-  return note?.referenced_by?.length > 0 ? elem : <></>;
-};
+  return note?.referenced_by?.length > 0 ? elem : <></>
+}
 
-export default Footer;
+export default Footer
