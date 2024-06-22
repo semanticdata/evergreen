@@ -68,18 +68,14 @@ Erit est subduci fixit famem; sed cerae vaccae suorum comitemque cervice
 Herculis Dianae [calore](http://www.famulus.com/putavi-nymphas) ingratum
 studiisque auctor mutavit. Tu dum caeso aristis inmune editus!
 
+## Links
 
-## Summary
-
-- [[note1.1]]
-- [[folder1/duplicate|duplicate in folder 1]]
-- [[folder1/duplicate#test|Header in duplicate in folder 1]]
-- [[note2.1]]
-- [[note2.1#^anchor]]
-- [[folder2/duplicate]]
-- [[note2.2.1]]
-- note2.2.2 shouldn't be indexed
-- [[note that doesn't exist]]
-- [link to outside](https://google.com/)
-- [[about]]
-- [[note3]]
+- [[Home]] (Home)
+- [[Adnuit quae]] (Adnuit quae)
+- [[Equi/Equi Ilion]] (Equi/Equi Ilion)
+- [[Equi/Ad vultusque]] (Equi/Ad vultusque)
+- [[Tamen/Recipit/Est patientia]] (Tamen/Recipit/Est patientia)
+- [[Tamen/Recipit/Recipit scire]] (Tamen/Recipit/Recipit scire)
+- [[Tamen/Recipit/Redit est]] (Tamen/Recipit/Redit est)
+- [[Tamen/Tamen in]] (Tamen/Tamen in)
+- [[Tamen/Virgine superasque]] (Tamen/Virgine superasque)

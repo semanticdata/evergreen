@@ -86,5 +86,14 @@ Qui est quidem suo capi aperire! Aera ille hostiliter vel crescente, pectore hac
 possit prospicit orbatura irascitur satum. **Dummodo succumbere aedes** quodque
 dantque, sub undis, ad nebulas inrumpere, remis.
 
+## Links
 
-[[folder2/duplicate]]
+- [[Home]] (Home)
+- [[Adnuit quae]] (Adnuit quae)
+- [[Hospes currus]] (Hospes currus)
+- [[Equi/Equi Ilion]] (Equi/Equi Ilion)
+- [[Equi/Ad vultusque]] (Equi/Ad vultusque)
+- [[Tamen/Recipit/Est patientia]] (Tamen/Recipit/Est patientia)
+- [[Tamen/Recipit/Recipit scire]] (Tamen/Recipit/Recipit scire)
+- [[Tamen/Recipit/Redit est]] (Tamen/Recipit/Redit est)
+- [[Tamen/Tamen in]] (Tamen/Tamen in)

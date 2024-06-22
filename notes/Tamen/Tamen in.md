@@ -50,6 +50,14 @@ Fuit illius plaustri divitior Achivi studioque ferro. Corythi indiciine Pelasgos
 poscimus omnes, monstrare templo attulit! Undique admonuisse ostendit quod?
 Venas ferunt, telae si sociae felix, eris animaeque notus sed!
 
-[[note1]]
+## Links
 
-[[note2.1]]
+- [[Home]] (Home)
+- [[Adnuit quae]] (Adnuit quae)
+- [[Hospes currus]] (Hospes currus)
+- [[Equi/Equi Ilion]] (Equi/Equi Ilion)
+- [[Equi/Ad vultusque]] (Equi/Ad vultusque)
+- [[Tamen/Recipit/Est patientia]] (Tamen/Recipit/Est patientia)
+- [[Tamen/Recipit/Recipit scire]] (Tamen/Recipit/Recipit scire)
+- [[Tamen/Recipit/Redit est]] (Tamen/Recipit/Redit est)
+- [[Tamen/Virgine superasque]] (Tamen/Virgine superasque)

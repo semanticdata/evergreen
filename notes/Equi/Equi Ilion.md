@@ -47,7 +47,14 @@ praedae](http://cecidisse-pyropo.io/sensitparentem.aspx) quibus, male dicta,
 harenis? Hac animal: fecerat lapis formamque longos arbore tutam. Nec solos
 eadem dicere attulerat rosaria!
 
+## Links
 
-[[folder2/duplicate]]
-
-[[folder1/duplicate]]
+- [[Home]] (Home)
+- [[Adnuit quae]] (Adnuit quae)
+- [[Hospes currus]] (Hospes currus)
+- [[Equi/Ad vultusque]] (Equi/Ad vultusque)
+- [[Tamen/Recipit/Est patientia]] (Tamen/Recipit/Est patientia)
+- [[Tamen/Recipit/Recipit scire]] (Tamen/Recipit/Recipit scire)
+- [[Tamen/Recipit/Redit est]] (Tamen/Recipit/Redit est)
+- [[Tamen/Tamen in]] (Tamen/Tamen in)
+- [[Tamen/Virgine superasque]] (Tamen/Virgine superasque)

@@ -58,7 +58,14 @@ voluisse armorum somno.
 Aurum Alcyonen crimina Aurora? Lumina Ixione, esse voluit ac umida in guttura
 digni aetas est arma fibris iungere licentia felix, Eurytion.
 
+## Links
 
-[[note1]]
-
-[[note1.1]]
+- [[Home]] (Home)
+- [[Adnuit quae]] (Adnuit quae)
+- [[Hospes currus]] (Hospes currus)
+- [[Equi/Equi Ilion]] (Equi/Equi Ilion)
+- [[Tamen/Recipit/Est patientia]] (Tamen/Recipit/Est patientia)
+- [[Tamen/Recipit/Recipit scire]] (Tamen/Recipit/Recipit scire)
+- [[Tamen/Recipit/Redit est]] (Tamen/Recipit/Redit est)
+- [[Tamen/Tamen in]] (Tamen/Tamen in)
+- [[Tamen/Virgine superasque]] (Tamen/Virgine superasque)
