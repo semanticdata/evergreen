@@ -1,9 +1,8 @@
-name: Build and Deploy
+name: Build and Deploy to GitHub Pages
 
 on:
   workflow_dispatch:
-  # push:
-  #   branches: [main]
+  push: {branches: [main]}
 
 permissions:
   contents: read
@@ -16,16 +15,18 @@ concurrency:
 
 jobs:
   build:
+    environment:
+      name: github-pages
+      url: ${{ steps.deployment.outputs.page_url }}
     runs-on: ubuntu-latest
     steps:
       - name: Checkout
         uses: actions/checkout@v4
-        with:
-          fetch-depth: 0 # Fetch all history for git info
+        # with:
+        #   fetch-depth: 0 # Fetch all history for git info
       - uses: actions/setup-node@v4
         with:
           node-version: 18
-
       - name: Install dependencies
         run: npm i
       - name: Build Index
@@ -36,14 +37,6 @@ jobs:
         run: npm run build
       - name: Upload artifact
         uses: actions/upload-pages-artifact@v3
-
-  deploy:
-    needs: build
-    environment:
-      name: github-pages
-      url: ${{ steps.deployment.outputs.page_url }}
-    runs-on: ubuntu-latest
-    steps:
       - name: Deploy to GitHub Pages
         id: deployment
         uses: actions/deploy-pages@v4
