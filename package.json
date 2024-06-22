@@ -2,12 +2,13 @@
   "name": "evergreen-notes-markdown-website",
   "version": "1.0.0",
   "main": "index.js",
-  "homepage": "https://unstaticlabs.github.io/evergreen-notes-markdown-website",
-  "repository": "git@github.com:unstaticlabs/evergreen-notes-markdown-website.git",
-  "author": "unstatic labs <noreply@unstaticlabs.com>",
+  "homepage": "https://semanticdata.github.io/evergreen",
+  "repository": "git@github.com:semanticdata/evergreen.git",
+  "author": "semanticdata <contact@miguelpimentel.do>",
   "contributors": [
     "Valentin Viennot <valentinviennot@users.noreply.github.com>",
-    "Roger Miret Giné <rogerxaic@users.noreply.github.com>"
+    "Roger Miret Giné <rogerxaic@users.noreply.github.com>",
+    "Miguel Pimentel <semanticdata@users.noreply.github.com>"
   ],
   "type": "module",
   "scripts": {

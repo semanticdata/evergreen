@@ -1,64 +1,79 @@
 # 🌲 Evergreen
 
-Yet another one of these static website to display Markdown notes (eg from an Obsidian vault) in the style of Andy Matuschak evergreen notes.
+> A Static Website for Displaying Markdown Notes
 
-Source: [unstaticlabs/evergreen-notes-markdown-website](https://github.com/unstaticlabs/evergreen-notes-markdown-website)
+Yet another implementation of a static website designed to display Markdown notes in the style of Andy Matuschak's evergreen notes.
 
-## Why?
+Evergreen notes are a convenient and natural way to organize thoughts. They are:
 
-A digital garden is a way to think and build in public. This is a powerful tool to develop your thinking.
+- **Atomic**: Each note is a self-contained unit.
+- **Concept-centric**: Each note focuses on a single concept or idea.
+- **Densely Linked**: Notes are interconnected through bi-directional links.
 
-## Goals
+## Why Evergreen?
 
-- Make publishing and sharing notes in the Evergreen format as straightforward as possible.
-- Make it an intuitive and beautiful experience for the user.
+A digital garden is a powerful tool for thoughtful and creative thinking. By organizing notes in the Evergreen format, you can harness the power of this tool to develop your thinking.
 
-## Evergreen Notes
+## 🏁 Goals
 
-Evergreen notes are a convenient and natural way to organise thoughts. They are:
+- **Simplify Publishing and Sharing**: Make it as straightforward as possible to publish and share notes in the Evergreen format.
+- **Intuitive User Experience**: Design the user interface to be intuitive and beautiful.
 
-- Atomic
-- Concept-centric
-- Densely linked
+## Obsidian.md
 
-## Obsidian
+[Obsidian](https://obsidian.md) is a great, simple tool to browse, edit, and organise a vault of Markdown files. With stacked tabs it provides a similar experience to this UI to linking and browsing notes. Obsidian provides an option to publish notes, but we aim to separate concerns and avoid lockin.
 
-Obsidian is a great, simple tool to browse, edit, and organise a vault of Markdown files. With stacked tabs it provides a similar experience to this UI to linking and browsing notes. Obsidian provides an option to publish notes, but we aim to separate concerns and avoid lockin.
+This website developed with React+Vite is a very simplified application to display Markdown files as stacked notes. It is greatly, heavily inspired from Andy Matuschak's notes website: [About_these_notes](https://notes.andymatuschak.org/About_these_notes). It requires a separate, automated process in order to build an index of backlinks.
 
-This website developed with React+Vite is a very simplified application to display Markdown files as stacked notes. It is greatly, heavily inspired from Andy Matuschak's notes website: <https://notes.andymatuschak.org/About_these_notes>. It requires a separate, automated process in order to build an index of backlinks.
+## ✨ Features
 
-## TODO
+- Bi-directional links
+- Wiki-style Links: `[[New Page]]`
+- Hover preview
 
-- [x] **mobile display**
+## 🗺 Roadmap
+
+### TODO
+
 - [ ] Fix blink (eg on Highlight open links)
 - [ ] Sort index/notes by pagerank score and keep them sorted whenever displayed
 - [ ] Remove broken links directly from index (?) (problem is my hidden notes will show up here)
-- [x] **preview note on link hover**
-- [x] preview note on "referenced by" link hover
-- [x] Style referenced by links
+- [ ] Support links to blocks #longterm
+- [ ] Note index array --> show menu? #longterm
+
+### DONE
+
+- [x] Mobile display
+- [x] Preview note on link hover
+- [x] Preview note on "referenced by" link hover
+- [x] Style "referenced by" links
 - [x] Highlight open links
 - [x] Add "referenced by" card at the bottom of each note
-- [x] Fix (?) 404 when entrypoint is e.g. `note1.1`
-- [x] e2e pipeline (i.e. builduing index.json, building react, serving as Github Pages)
-- [x] add config (to change title, where notes are stored...) / anything that is hard-coded
-- [x] links dont work
-- [x] handle link formats
-- [x] handle broken links
-- [x] actual links don't work
-- [x] replace "scroll" console.log and implement scroll when clicking a link
-- [x] MANY requests for same file + lazyloading
-- [x] Debugger %25 (et scroll?)
-- [x] default index
-- [x] click bookmark doesnt't work
-- [x] links to this note empty?
-- [x] empty page: 404?
+- [x] Fix (?) when entrypoint is e.g. `note1.1`
+- [x] End-to-end pipeline (i.e. building `index.json`, building React, serving as GitHub Pages)
+- [x] Add config (to change title, where notes are stored)
+- [x] Links don't work
+- [x] Handle link formats
+- [x] Handle broken links
+- [x] Actual links don't work
+- [x] Replace "scroll" console.log and implement scroll when clicking a link
+- [x] Multiple requests for the same file + lazy loading
+- [x] Debugger `%25` (and scroll?)
+- [x] Default index
+- [x] Click bookmark doesn't work
+- [x] Links to this note are empty
+- [x] Empty page: 404?
 
-Icebox
+## 🤖 Technologies
 
-- [ ] Support links to blocks
-- [ ] Note index array --> show menu?
+- [Bun](https://bun.sh/)
+- [ESLint](https://eslint.org/)
+- [Prettier](https://prettier.io/)
+- [React](https://react.dev/)
+- [Sass](https://sass-lang.com/)
+- [Vite](https://vitejs.dev/)
 
-## Relevant Links
+## 🔗 Relevant Links
 
 - [Eleventy Plugin Vite](https://www.npmjs.com/package/@11ty/eleventy-plugin-vite)
   - Runs Vite as middleware in Eleventy Dev Server (see: --incremental)
@@ -68,3 +83,13 @@ Icebox
   - Unlocks component frameworks like React. (use .jsx instead of .html .liquid)
 - [Vite Plugin React](https://www.npmjs.com/package/@vitejs/plugin-react)
   - Default Vite plugin for React projects.
+
+## 💜 Attributions
+
+This repository is a fork of [unstaticlabs/evergreen-notes-markdown-website](https://github.com/unstaticlabs/evergreen-notes-markdown-website). Thanks to their authors: Roger Miret Giné, and Valentin Viennot.
+
+The project is inspired by Andy Matuschak, Max Stoiber, and Anne-Laure Le Cunff.
+
+## © License
+
+Source code in this repository is available under the [MIT License](LICENSE)
