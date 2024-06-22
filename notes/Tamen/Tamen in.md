@@ -1,5 +1,3 @@
-# Tamen in auras loquentem preces
-
 ## Damnum sonant circa os circa
 
 Lorem markdownum caelo laceras, quo, [pascas](http://www.maternunc.com/),
@@ -52,12 +50,12 @@ Venas ferunt, telae si sociae felix, eris animaeque notus sed!
 
 ## Links
 
-- [[Home]] (Home)
-- [[Adnuit quae]] (Adnuit quae)
-- [[Hospes currus]] (Hospes currus)
-- [[Equi/Equi Ilion]] (Equi/Equi Ilion)
-- [[Equi/Ad vultusque]] (Equi/Ad vultusque)
-- [[Tamen/Recipit/Est patientia]] (Tamen/Recipit/Est patientia)
-- [[Tamen/Recipit/Recipit scire]] (Tamen/Recipit/Recipit scire)
-- [[Tamen/Recipit/Redit est]] (Tamen/Recipit/Redit est)
-- [[Tamen/Virgine superasque]] (Tamen/Virgine superasque)
+- [[Home]]
+- [[Adnuit quae]]
+- [[Hospes currus]]
+- [[Equi Ilion]]
+- [[Ad vultusque]]
+- [[Est patientia]]
+- [[Recipit scire]]
+- [[Redit est]]
+- [[Virgine superasque]]

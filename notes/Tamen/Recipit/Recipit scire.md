@@ -1,5 +1,3 @@
-# Recipit scire non quae manus auras
-
 ## Haec qua dedit viribus
 
 Lorem markdownum fortissime corpore committere cupiens obibat transcribere
@@ -62,12 +60,14 @@ erat, esse forte carchesia cepere ignem. Sanguisque palmis Typhoeus alatur
 excipit nutrit in manus premit **surgit**. Plantas urbesque Minos sublimis
 rugosis Charopem nomina quoniam timore et meosque sacra.
 
-- [[Home]] (Home)
-- [[Adnuit quae]] (Adnuit quae)
-- [[Hospes currus]] (Hospes currus)
-- [[Equi/Equi Ilion]] (Equi/Equi Ilion)
-- [[Equi/Ad vultusque]] (Equi/Ad vultusque)
-- [[Tamen/Recipit/Est patientia]] (Tamen/Recipit/Est patientia)
-- [[Tamen/Recipit/Redit est]] (Tamen/Recipit/Redit est)
-- [[Tamen/Tamen in]] (Tamen/Tamen in)
-- [[Tamen/Virgine superasque]] (Tamen/Virgine superasque)
+## Links
+
+- [[Home]]
+- [[Adnuit quae]]
+- [[Hospes currus]]
+- [[Equi Ilion]]
+- [[Ad vultusque]]
+- [[Est patientia]]
+- [[Redit est]]
+- [[Tamen in]]
+- [[Virgine superasque]]

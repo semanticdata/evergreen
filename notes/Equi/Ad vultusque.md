@@ -1,5 +1,3 @@
-# Ad vultusque tamen dei laborum pestis Noemonaque
-
 ## Comae nocuisse
 
 Lorem markdownum erigitur temptat velles sibi amans sub Aeacidae sed! Dixit erat
@@ -60,12 +58,12 @@ digni aetas est arma fibris iungere licentia felix, Eurytion.
 
 ## Links
 
-- [[Home]] (Home)
-- [[Adnuit quae]] (Adnuit quae)
-- [[Hospes currus]] (Hospes currus)
-- [[Equi/Equi Ilion]] (Equi/Equi Ilion)
-- [[Tamen/Recipit/Est patientia]] (Tamen/Recipit/Est patientia)
-- [[Tamen/Recipit/Recipit scire]] (Tamen/Recipit/Recipit scire)
-- [[Tamen/Recipit/Redit est]] (Tamen/Recipit/Redit est)
-- [[Tamen/Tamen in]] (Tamen/Tamen in)
-- [[Tamen/Virgine superasque]] (Tamen/Virgine superasque)
+- [[Home]]
+- [[Adnuit quae]]
+- [[Hospes currus]]
+- [[Equi Ilion]]
+- [[Est patientia]]
+- [[Recipit scire]]
+- [[Redit est]]
+- [[Tamen in]]
+- [[Virgine superasque]]

@@ -1,5 +1,3 @@
-# Redit est reddere cum Iove concessit sumpserat
-
 ## Femina errat hi aequora Clara parvo
 
 Lorem markdownum praenuntia vestra. Ima ultra **Pan crate** data, populos
@@ -46,12 +44,12 @@ deicit timuit **vocant** reddita **iaculum**: diu iste certum.
 
 ## Links
 
-- [[Home]] (Home)
-- [[Adnuit quae]] (Adnuit quae)
-- [[Hospes currus]] (Hospes currus)
-- [[Equi/Equi Ilion]] (Equi/Equi Ilion)
-- [[Equi/Ad vultusque]] (Equi/Ad vultusque)
-- [[Tamen/Recipit/Est patientia]] (Tamen/Recipit/Est patientia)
-- [[Tamen/Recipit/Recipit scire]] (Tamen/Recipit/Recipit scire)
-- [[Tamen/Tamen in]] (Tamen/Tamen in)
-- [[Tamen/Virgine superasque]] (Tamen/Virgine superasque)
+- [[Home]]
+- [[Adnuit quae]]
+- [[Hospes currus]]
+- [[Equi Ilion]]
+- [[Ad vultusque]]
+- [[Est patientia]]
+- [[Recipit scire]]
+- [[Tamen in]]
+- [[Virgine superasque]]

@@ -1,5 +1,3 @@
-# Est patientia
-
 ## Non tandem
 
 Lorem markdownum inque movente ait visum, cum Oete somni, dies que vetabant
@@ -40,12 +38,14 @@ Neque non efficiet primis, facilem armis donec, tridentigero captus. Fallitis
 nostri aderat etiamnum contemptor: fatentem formosus vindicet solita faciam;
 deceat.
 
-- [[Home]] (Home)
-- [[Adnuit quae]] (Adnuit quae)
-- [[Hospes currus]] (Hospes currus)
-- [[Equi/Equi Ilion]] (Equi/Equi Ilion)
-- [[Equi/Ad vultusque]] (Equi/Ad vultusque)
-- [[Tamen/Recipit/Recipit scire]] (Tamen/Recipit/Recipit scire)
-- [[Tamen/Recipit/Redit est]] (Tamen/Recipit/Redit est)
-- [[Tamen/Tamen in]] (Tamen/Tamen in)
-- [[Tamen/Virgine superasque]] (Tamen/Virgine superasque)
+## Links
+
+- [[Home]]
+- [[Adnuit quae]]
+- [[Hospes currus]]
+- [[Equi Ilion]]
+- [[Ad vultusque]]
+- [[Recipit scire]]
+- [[Redit est]]
+- [[Tamen in]]
+- [[Virgine superasque]]

@@ -1,5 +1,3 @@
-# Equi Ilion saepes curruque tinctis comitant cuspide
-
 ## Et dabuntur Perseus priori in
 
 Lorem markdownum: columbas avis. Non terra atrorum; aut vellet antraque orbatura
@@ -49,12 +47,12 @@ eadem dicere attulerat rosaria!
 
 ## Links
 
-- [[Home]] (Home)
-- [[Adnuit quae]] (Adnuit quae)
-- [[Hospes currus]] (Hospes currus)
-- [[Equi/Ad vultusque]] (Equi/Ad vultusque)
-- [[Tamen/Recipit/Est patientia]] (Tamen/Recipit/Est patientia)
-- [[Tamen/Recipit/Recipit scire]] (Tamen/Recipit/Recipit scire)
-- [[Tamen/Recipit/Redit est]] (Tamen/Recipit/Redit est)
-- [[Tamen/Tamen in]] (Tamen/Tamen in)
-- [[Tamen/Virgine superasque]] (Tamen/Virgine superasque)
+- [[Home]]
+- [[Adnuit quae]]
+- [[Hospes currus]]
+- [[Ad vultusque]]
+- [[Est patientia]]
+- [[Recipit scire]]
+- [[Redit est]]
+- [[Tamen in]]
+- [[Virgine superasque]]

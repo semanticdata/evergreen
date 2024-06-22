@@ -1,5 +1,3 @@
-# Adnuit quae medere plebe unxere
-
 ## Ora cum amplius cerno summa in conditus
 
 Lorem markdownum Aeneaden Philemon, et retentus Iovis; fronde et sequitur
@@ -43,12 +41,12 @@ Repurgato socio properatus alae; canit nam exhausto Hecabe despectabat alligat.
 
 ## Links
 
-- [[Home]] (Home)
-- [[Hospes currus]] (Hospes currus)
-- [[Equi/Equi Ilion]] (Equi/Equi Ilion)
-- [[Equi/Ad vultusque]] (Equi/Ad vultusque)
-- [[Tamen/Recipit/Est patientia]] (Tamen/Recipit/Est patientia)
-- [[Tamen/Recipit/Recipit scire]] (Tamen/Recipit/Recipit scire)
-- [[Tamen/Recipit/Redit est]] (Tamen/Recipit/Redit est)
-- [[Tamen/Tamen in]] (Tamen/Tamen in)
-- [[Tamen/Virgine superasque]] (Tamen/Virgine superasque)
+- [[Home]]
+- [[Hospes currus]]
+- [[Equi Ilion]]
+- [[Ad vultusque]]
+- [[Est patientia]]
+- [[Recipit scire]]
+- [[Redit est]]
+- [[Tamen in]]
+- [[Virgine superasque]]

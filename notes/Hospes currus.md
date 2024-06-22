@@ -1,5 +1,3 @@
-# Hospes currus flectentem misistis Finis quid
-
 ## Decet invisamque habuit intus nihil
 
 Lorem markdownum turea ullus; cum tamen amnemque, aret ipsi nam tuo suo
@@ -70,12 +68,12 @@ studiisque auctor mutavit. Tu dum caeso aristis inmune editus!
 
 ## Links
 
-- [[Home]] (Home)
-- [[Adnuit quae]] (Adnuit quae)
-- [[Equi/Equi Ilion]] (Equi/Equi Ilion)
-- [[Equi/Ad vultusque]] (Equi/Ad vultusque)
-- [[Tamen/Recipit/Est patientia]] (Tamen/Recipit/Est patientia)
-- [[Tamen/Recipit/Recipit scire]] (Tamen/Recipit/Recipit scire)
-- [[Tamen/Recipit/Redit est]] (Tamen/Recipit/Redit est)
-- [[Tamen/Tamen in]] (Tamen/Tamen in)
-- [[Tamen/Virgine superasque]] (Tamen/Virgine superasque)
+- [[Home]]
+- [[Adnuit quae]]
+- [[Equi Ilion]]
+- [[Ad vultusque]]
+- [[Est patientia]]
+- [[Recipit scire]]
+- [[Redit est]]
+- [[Tamen in]]
+- [[Virgine superasque]]
