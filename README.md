@@ -86,9 +86,9 @@ This website developed with React+Vite is a very simplified application to displ
 
 ## 💜 Attributions
 
-This repository is a fork of [unstaticlabs/evergreen-notes-markdown-website](https://github.com/unstaticlabs/evergreen-notes-markdown-website). Thanks to their authors: Roger Miret Giné, and Valentin Viennot.
+This repository is a fork of [unstaticlabs/evergreen-notes-markdown-website](https://github.com/unstaticlabs/evergreen-notes-markdown-website). Thanks to their authors: [Roger Miret Giné](https://github.com/rogerxaic), and [Valentin Viennot](https://github.com/ValentinViennot).
 
-The project is inspired by Andy Matuschak, Max Stoiber, and Anne-Laure Le Cunff.
+The project is inspired by [Andy Matuschak](https://github.com/andymatuschak), [Max Stoiber](https://github.com/mxstbr), and [Anne-Laure Le Cunff](https://github.com/anthilemoon).
 
 ## © License
 
