@@ -4,7 +4,7 @@ import {useParams, useSearchParams} from "react-router-dom"
 
 import Db from "../db/Db"
 
-import Popover from "./Popover"
+// import Popover from "./Popover"
 import NoteContainer from "./NoteContainer"
 
 import "./NoteColumnsContainer.scss"
@@ -118,14 +118,15 @@ const NoteColumnsContainer = ({scrollRef}) => {
           />
         )
       })}
-      {popoverData ? (
+      {/* If popoverData is required in future, uncomment and use the below code */}
+      {/* {popoverData ? (
         <Popover
           elementPosition={popoverData.elementPosition}
           noteId={popoverData.noteId}
         />
       ) : (
         <></>
-      )}
+      )} */}
     </div>
   )
 }
