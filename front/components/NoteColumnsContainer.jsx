@@ -19,7 +19,7 @@ const NoteColumnsContainer = ({scrollRef}) => {
   const [notes, setNotes] = useState([])
   const [shownNotes, setShownNotes] = useState([])
   const [smallScreen, setSmallScreen] = useState(false)
-  const [popoverData, setPopoverData] = useState()
+  // const [popoverData, setPopoverData] = useState()
   const [scroll, setScroll] = useState(0)
 
   const scrollToAmount = useCallback(
