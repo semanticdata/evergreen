@@ -30,15 +30,15 @@
     "eslint": "^8.57.0",
     "eslint-plugin-react": "^7.34.3",
     "eslint-plugin-react-hooks": "^4.6.2",
-    "eslint-plugin-react-refresh": "^0.4.7",
+    "eslint-plugin-react-refresh": "^0.4.8",
     "obsidian-index-wikilinks": "github:ValentinViennot/np-obsidian-index-wikilinks",
     "prettier": "^3.3.2",
     "react": "^18.3.1",
     "react-dom": "^18.3.1",
     "react-markdown": "^8.0.7",
-    "react-router-dom": "^6.23.1",
-    "sass": "^1.77.6",
+    "react-router-dom": "^6.24.1",
+    "sass": "^1.77.8",
     "vite": "^4.5.3",
-    "vite-plugin-restart": "^0.4.0"
+    "vite-plugin-restart": "^0.4.1"
   }
 }
