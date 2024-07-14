@@ -102,7 +102,7 @@ Source code in this repository is available under the [MIT License](LICENSE)
 
 If you have assets that are:
 
-- Never referenced in source code (e.g. `robots.tx`t)
+- Never referenced in source code (e.g. `robots.txt`)
 - Must retain the exact same file name (without hashing)
 - ...or you simply don't want to have to import an asset first just to get its URL
 
