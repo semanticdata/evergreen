@@ -9,7 +9,8 @@ import NoteContainer from "./NoteContainer"
 
 import "./NoteColumnsContainer.scss"
 
-const NOTE_WIDTH = 585
+// default: 585
+const NOTE_WIDTH = 1080
 
 const NoteColumnsContainer = ({scrollRef}) => {
   const {entrypoint} = useParams()

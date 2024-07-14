@@ -11,7 +11,13 @@ const Header = () => {
     <header id="header">
       <h1>{Config.title}</h1>
       {(Config.bookmarks ?? []).map((noteIndex) => (
-        <a key={noteIndex} className="noteLink" href={`${base}/${noteIndex}`}>
+        <a
+          key={noteIndex}
+          className="noteLink"
+          href={
+            noteIndex === "Home" ? `${base}/` : `${base}/${encodeURIComponent(noteIndex)}`
+          }
+        >
           {noteIndex}
         </a>
       ))}
