@@ -6,12 +6,15 @@ import ViteRestart from "vite-plugin-restart"
 export default defineConfig({
   plugins: [
     ViteRestart({
+      // changes in these paths will restart the server automatically
       restart: ["notes/**"],
     }),
     react(),
   ],
   build: {
-    outDir: "_site",
+    // default: dist
+    // outDir: "_site",
   },
-  base: "./",
+  // default: /
+  // base: "./",
 })
