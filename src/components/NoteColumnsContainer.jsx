@@ -4,7 +4,7 @@ import {useParams, useSearchParams} from "react-router-dom"
 
 import Db from "../db/Db"
 
-// import Popover from "./Popover"
+import Popover from "./Popover"
 import NoteContainer from "./NoteContainer"
 
 import "./NoteColumnsContainer.scss"
@@ -19,22 +19,23 @@ const NoteColumnsContainer = ({scrollRef}) => {
   const [notes, setNotes] = useState([])
   const [shownNotes, setShownNotes] = useState([])
   const [smallScreen, setSmallScreen] = useState(false)
-  // const [popoverData, setPopoverData] = useState()
+  const [popoverData, setPopoverData] = useState()
   const [scroll, setScroll] = useState(0)
 
   const scrollToAmount = useCallback(
     (amount) => {
-      if (!scrollRef.current) return
-      scrollRef.current.scroll(amount, 0)
+      if (scrollRef && scrollRef.current) {
+        scrollRef.current.scroll(amount, 0)
+      }
     },
     [scrollRef],
   )
 
   useEffect(() => {
-    setInterval(() => {
-      // console.log('interval up!');
+    const intervalId = setInterval(() => {
       setScroll(scrollRef?.current?.scrollLeft)
     }, 200)
+    return () => clearInterval(intervalId)
   }, [scrollRef])
 
   const handleScrollToNote = useCallback(
@@ -76,19 +77,16 @@ const NoteColumnsContainer = ({scrollRef}) => {
   }, [title])
 
   useEffect(() => {
-    // console.log('rererender')
-
     function handleResize() {
       const isSmallScreen = window.innerWidth < 800
       setSmallScreen(isSmallScreen)
     }
     handleResize()
-
     window.addEventListener("resize", handleResize)
     return () => {
       window.removeEventListener("resize", handleResize)
     }
-  })
+  }, []) // Add empty dependency array
 
   return (
     <div className="NoteColumnsContainer">
@@ -111,7 +109,8 @@ const NoteColumnsContainer = ({scrollRef}) => {
             note={note}
             noteIdsStack={noteIds}
             scrollToNote={handleScrollToNote}
-            showPopoverForNote={() => {}} //showPopoverForNote={setPopoverData}
+            // showPopoverForNote={() => {}}
+            showPopoverForNote={setPopoverData}
             //TODO: bug with popover, alternates between .404 and note to display
             //TODO: bug with popover, causes MANY re-renders (on NoteContainer, but not on Footer links)
             key={note.path ?? ".404"}
@@ -119,14 +118,14 @@ const NoteColumnsContainer = ({scrollRef}) => {
         )
       })}
       {/* If popoverData is required in future, uncomment and use the below code */}
-      {/* {popoverData ? (
+      {popoverData ? (
         <Popover
           elementPosition={popoverData.elementPosition}
           noteId={popoverData.noteId}
         />
       ) : (
         <></>
-      )} */}
+      )}
     </div>
   )
 }
