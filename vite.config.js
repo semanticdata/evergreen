@@ -12,9 +12,8 @@ export default defineConfig({
     react(),
   ],
   build: {
-    // default: dist
-    // outDir: "_site",
+    // needed for gh-pages deployment
+    // see: <https://github.com/actions/upload-pages-artifact>
+    outDir: "_site",
   },
-  // default: /
-  // base: "./",
 })
