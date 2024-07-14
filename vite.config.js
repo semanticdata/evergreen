@@ -16,6 +16,6 @@ export default defineConfig({
     // see: <https://github.com/actions/upload-pages-artifact>
     outDir: "_site",
   },
-  // default: /
+  // needed for gh-pages deployment
   base: "./",
 })
