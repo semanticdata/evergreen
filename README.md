@@ -10,7 +10,7 @@ Evergreen notes are a convenient and natural way to organize thoughts. They are:
 - **Concept-centric**: Each note focuses on a single concept or idea.
 - **Densely Linked**: Notes are interconnected through bi-directional links.
 
-## Why Evergreen?
+## ❓ Why Evergreen?
 
 A digital garden is a powerful tool for thoughtful and creative thinking. By organizing notes in the Evergreen format, you can harness the power of this tool to develop your thinking.
 
@@ -19,7 +19,7 @@ A digital garden is a powerful tool for thoughtful and creative thinking. By org
 - **Simplify Publishing and Sharing**: Make it as straightforward as possible to publish and share notes in the Evergreen format.
 - **Intuitive User Experience**: Design the user interface to be intuitive and beautiful.
 
-## Obsidian.md
+## 🟪 Obsidian.md
 
 [Obsidian](https://obsidian.md) is a great, simple tool to browse, edit, and organise a vault of Markdown files. With stacked tabs it provides a similar experience to this UI to linking and browsing notes. Obsidian provides an option to publish notes, but we aim to separate concerns and avoid lockin.
 
@@ -33,7 +33,7 @@ This website developed with React+Vite is a very simplified application to displ
 
 ## 🗺 Roadmap
 
-### TODO
+### 📃 TODO
 
 - [ ] Fix blink (eg on Highlight open links)
 - [ ] Sort index/notes by pagerank score and keep them sorted whenever displayed
@@ -41,7 +41,7 @@ This website developed with React+Vite is a very simplified application to displ
 - [ ] Support links to blocks #longterm
 - [ ] Note index array --> show menu? #longterm
 
-### DONE
+### ✔ DONE
 
 - [x] Mobile display
 - [x] Preview note on link hover

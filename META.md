@@ -1,5 +1,6 @@
-
 # Meta
+
+Meta information for the website.
 
 ## config.json
 
