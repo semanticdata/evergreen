@@ -1,6 +1,6 @@
 # Meta
 
-Meta information for the website.
+Metadata for the Evergreen website.
 
 ## config.json
 
