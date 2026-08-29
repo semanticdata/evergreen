@@ -31,7 +31,7 @@ jobs:
       - name: Build Index
         run: npm run build:index
       - name: Move Index
-        run: mv notes public/notes
+        run: cp -r notes public/notes
       - name: Build
         run: npm run build
       - name: Upload artifact

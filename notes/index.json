@@ -1,1 +1,62 @@
-{"Ad vultusque":{"title":"Ad vultusque","path":"notes\\Equi\\Ad vultusque.md","referenced_by":["Equi Ilion","Est patientia","Recipit scire","Redit est","Tamen in","Virgine superasque","Adnuit quae","Home","Hospes currus"]},"Equi Ilion":{"title":"Equi Ilion","path":"notes\\Equi\\Equi Ilion.md","referenced_by":["Ad vultusque","Est patientia","Recipit scire","Redit est","Tamen in","Virgine superasque","Adnuit quae","Home","Hospes currus"]},"Est patientia":{"title":"Est patientia","path":"notes\\Tamen\\Recipit\\Est patientia.md","referenced_by":["Ad vultusque","Equi Ilion","Recipit scire","Redit est","Tamen in","Virgine superasque","Adnuit quae","Home","Hospes currus"]},"Recipit scire":{"title":"Recipit scire","path":"notes\\Tamen\\Recipit\\Recipit scire.md","referenced_by":["Ad vultusque","Equi Ilion","Est patientia","Redit est","Tamen in","Virgine superasque","Adnuit quae","Home","Hospes currus"]},"Redit est":{"title":"Redit est","path":"notes\\Tamen\\Recipit\\Redit est.md","referenced_by":["Ad vultusque","Equi Ilion","Est patientia","Recipit scire","Tamen in","Virgine superasque","Adnuit quae","Home","Hospes currus"]},"Tamen in":{"title":"Tamen in","path":"notes\\Tamen\\Tamen in.md","referenced_by":["Ad vultusque","Equi Ilion","Est patientia","Recipit scire","Redit est","Virgine superasque","Adnuit quae","Home","Hospes currus"]},"Virgine superasque":{"title":"Virgine superasque","path":"notes\\Tamen\\Virgine superasque.md","referenced_by":["Ad vultusque","Equi Ilion","Est patientia","Recipit scire","Redit est","Tamen in","Adnuit quae","Home","Hospes currus"]},"Adnuit quae":{"title":"Adnuit quae","path":"notes\\Adnuit quae.md","referenced_by":["Ad vultusque","Equi Ilion","Est patientia","Recipit scire","Redit est","Tamen in","Virgine superasque","Home","Hospes currus"]},"Home":{"title":"Home","path":"notes\\Home.md","referenced_by":["Ad vultusque","Equi Ilion","Est patientia","Recipit scire","Redit est","Tamen in","Virgine superasque","Adnuit quae","Hospes currus"]},"Hospes currus":{"title":"Hospes currus","path":"notes\\Hospes currus.md","referenced_by":["Ad vultusque","Equi Ilion","Est patientia","Recipit scire","Redit est","Tamen in","Virgine superasque","Adnuit quae","Home"]}}
+{
+  "Devote yourself doing what you feel is truly important": {
+    "title": "Devote yourself doing what you feel is truly important",
+    "path": "notes/Devote yourself doing what you feel is truly important.md",
+    "aliases": [],
+    "link_references": [
+      "Devote yourself doing what you feel is truly important",
+      "notes/Devote yourself doing what you feel is truly important"
+    ],
+    "referenced_by": [
+      "Home",
+      "Importance of practicing activities consistently"
+    ]
+  },
+  "Home": {
+    "title": "Home",
+    "path": "notes/Home.md",
+    "aliases": [],
+    "link_references": [
+      "Home",
+      "notes/Home"
+    ],
+    "referenced_by": []
+  },
+  "Importance of practicing activities consistently": {
+    "title": "Importance of practicing activities consistently",
+    "path": "notes/Importance of practicing activities consistently.md",
+    "aliases": [],
+    "link_references": [
+      "Importance of practicing activities consistently",
+      "notes/Importance of practicing activities consistently"
+    ],
+    "referenced_by": [
+      "Home",
+      "right sources of knowledge"
+    ]
+  },
+  "right sources of knowledge": {
+    "title": "right sources of knowledge",
+    "path": "notes/right sources of knowledge.md",
+    "aliases": [],
+    "link_references": [
+      "right sources of knowledge",
+      "notes/right sources of knowledge"
+    ],
+    "referenced_by": [
+      "Home"
+    ]
+  },
+  "without name yet": {
+    "title": "without name yet",
+    "path": "notes/without name yet.md",
+    "aliases": [],
+    "link_references": [
+      "without name yet",
+      "notes/without name yet"
+    ],
+    "referenced_by": [
+      "Home"
+    ]
+  }
+}

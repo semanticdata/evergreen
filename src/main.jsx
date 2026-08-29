@@ -3,6 +3,7 @@ import ReactDOM from "react-dom/client"
 import {createBrowserRouter, Navigate, RouterProvider} from "react-router-dom"
 
 import App from "./pages/Evergreen.jsx"
+import Tags from "./pages/Tags.jsx"
 
 import Config from "../config.json"
 
@@ -19,6 +20,8 @@ const router = createBrowserRouter(
       path: "/",
       element: <Navigate to={"/" + defaultIndex} replace />,
     },
+    {path: "/tags", element: <Tags />},
+    {path: "/tags/:tag", element: <Tags />},
     {path: "/:entrypoint", element: <App />},
   ],
   {

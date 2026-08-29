@@ -34,14 +34,21 @@ const Popover = ({elementPosition, noteId}) => {
   ])
 
   useEffect(() => {
-    Db.getNote(noteId).then((n) => setNote(n))
+    let active = true
+    setNote(null)
+    Db.getNote(noteId).then((loadedNote) => {
+      if (active) setNote(loadedNote)
+    })
+    return () => {
+      active = false
+    }
   }, [noteId])
 
   return (
     <div
       className="Popover PopoverTransition-appear PopoverTransition-appear-active"
       style={{
-        position: "absolute",
+        position: "fixed",
         opacity: position.x === 0 ? 0 : 1,
         willChange: "transform",
         top: "0px",
@@ -54,7 +61,11 @@ const Popover = ({elementPosition, noteId}) => {
         <div className="HoveredNoteInterior">
           <div>
             <ReactMarkdown>
-              {note ? noteToMarkdownContent(base, note) : ""}
+              {note
+                ? noteToMarkdownContent(base, note, (id) =>
+                    Db.resolveNoteId(id),
+                  )
+                : ""}
             </ReactMarkdown>
           </div>
         </div>

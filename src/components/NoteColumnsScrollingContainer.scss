@@ -1,13 +1,22 @@
 .NoteColumnsScrollingContainer {
-  scroll-behavior: smooth;
   display: -webkit-box;
   display: -webkit-flex;
   display: -ms-flexbox;
   display: flex;
+  flex-grow: 1;
   overflow-x: auto;
   overflow-y: hidden;
+  overscroll-behavior-x: contain;
+  scroll-behavior: smooth;
+  scrollbar-gutter: stable;
+  -webkit-overflow-scrolling: touch;
   -webkit-box-flex: 1;
   -webkit-flex-grow: 1;
   -ms-flex-positive: 1;
-  flex-grow: 1;
+}
+
+@media (prefers-reduced-motion: reduce) {
+  .NoteColumnsScrollingContainer {
+    scroll-behavior: auto;
+  }
 }

@@ -1,26 +1,25 @@
-import {useBase} from "../utils"
+import {Link} from "react-router-dom"
 
 import Config from "../../config.json"
 
 import "./Header.scss"
 
 const Header = () => {
-  const base = useBase()
-
   return (
     <header id="header">
       <h1>{Config.title}</h1>
       {(Config.bookmarks ?? []).map((noteIndex) => (
-        <a
+        <Link
           key={noteIndex}
           className="noteLink"
-          href={
-            noteIndex === "Home" ? `${base}/` : `${base}/${encodeURIComponent(noteIndex)}`
-          }
+          to={noteIndex === "Home" ? "/" : `/${encodeURIComponent(noteIndex)}`}
         >
           {noteIndex}
-        </a>
+        </Link>
       ))}
+      <Link className="noteLink" to="/tags">
+        Tags
+      </Link>
     </header>
   )
 }

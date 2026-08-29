@@ -1,5 +1,9 @@
 {
   "title": "🌲 Evergreen",
   "index": "notes/index.json",
-  "bookmarks": ["Home", "Adnuit quae", "Hospes currus", "Equi Ilion"]
+  "bookmarks": [
+    "Home",
+    "right sources of knowledge",
+    "Importance of practicing activities consistently"
+  ]
 }

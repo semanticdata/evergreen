@@ -2,7 +2,7 @@
   "name": "evergreen-notes-markdown-website",
   "version": "1.0.0",
   "main": "index.js",
-  "homepage": "https://semanticdata.github.io/evergreen",
+  "homepage": "https://eshmatcapella.github.io/evergreen/",
   "repository": "git@github.com:semanticdata/evergreen.git",
   "author": "semanticdata <semanticdata@users.noreply.github.com>",
   "contributors": [
@@ -12,11 +12,11 @@
   ],
   "type": "module",
   "scripts": {
-    "start": "npx index-wikilinks notes notes/index.json && npx vite",
-    "start-2": "rm notes/index.json && index-wikilinks notes notes/index.json && vite",
+    "start": "npx vite",
+    "start-2": "npx vite",
     "dev": "npx vite",
     "build": "npx vite build",
-    "build:index": "npx index-wikilinks notes notes/index.json",
+    "build:index": "node scripts/build-note-index.mjs",
     "lint": "npx eslint . --ext js,jsx --report-unused-disable-directives --max-warnings 0",
     "preview": "npx vite preview",
     "check": "npx prettier --check .",
@@ -26,7 +26,7 @@
   "dependencies": {
     "@types/react": "^18.3.3",
     "@types/react-dom": "^18.3.0",
-    "@vitejs/plugin-react": "^4.3.1",
+    "@vitejs/plugin-react": "^5.1.4",
     "eslint": "^8.57.0",
     "eslint-plugin-react": "^7.34.3",
     "eslint-plugin-react-hooks": "^4.6.2",
@@ -38,7 +38,7 @@
     "react-markdown": "^8.0.7",
     "react-router-dom": "^6.24.1",
     "sass": "^1.77.8",
-    "vite": "^4.5.3",
-    "vite-plugin-restart": "^0.4.1"
+    "vite": "^7.3.6",
+    "vite-plugin-restart": "^2.0.0"
   }
 }

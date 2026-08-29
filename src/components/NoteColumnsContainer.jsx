@@ -22,20 +22,47 @@ const NoteColumnsContainer = ({scrollRef}) => {
   const [popoverData, setPopoverData] = useState()
   const [scroll, setScroll] = useState(0)
 
+  const showPopoverForNote = useCallback((data) => {
+    setPopoverData((currentPopover) => {
+      if (!data) return undefined
+      if (data.hidden)
+        return currentPopover?.noteId === data.noteId
+          ? undefined
+          : currentPopover
+      return data
+    })
+  }, [])
+
   const scrollToAmount = useCallback(
     (amount) => {
-      if (scrollRef && scrollRef.current) {
-        scrollRef.current.scroll(amount, 0)
-      }
+      scrollRef?.current?.scrollTo({left: amount, behavior: "smooth"})
     },
     [scrollRef],
   )
 
   useEffect(() => {
-    const intervalId = setInterval(() => {
-      setScroll(scrollRef?.current?.scrollLeft)
-    }, 200)
-    return () => clearInterval(intervalId)
+    const scrollElement = scrollRef?.current
+    if (!scrollElement) return
+
+    let frameId
+    const handleScroll = () => {
+      if (frameId) return
+      frameId = requestAnimationFrame(() => {
+        frameId = undefined
+        setScroll((currentScroll) =>
+          currentScroll === scrollElement.scrollLeft
+            ? currentScroll
+            : scrollElement.scrollLeft,
+        )
+        setPopoverData(undefined)
+      })
+    }
+
+    scrollElement.addEventListener("scroll", handleScroll, {passive: true})
+    return () => {
+      scrollElement.removeEventListener("scroll", handleScroll)
+      if (frameId) cancelAnimationFrame(frameId)
+    }
   }, [scrollRef])
 
   const handleScrollToNote = useCallback(
@@ -110,7 +137,7 @@ const NoteColumnsContainer = ({scrollRef}) => {
             noteIdsStack={noteIds}
             scrollToNote={handleScrollToNote}
             // showPopoverForNote={() => {}}
-            showPopoverForNote={setPopoverData}
+            showPopoverForNote={showPopoverForNote}
             //TODO: bug with popover, alternates between .404 and note to display
             //TODO: bug with popover, causes MANY re-renders (on NoteContainer, but not on Footer links)
             key={note.path ?? ".404"}

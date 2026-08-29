@@ -1,5 +1,5 @@
 /* eslint-disable react/prop-types */
-import {useCallback, useEffect, useState} from "react"
+import {useCallback} from "react"
 import {useNavigate, useSearchParams} from "react-router-dom"
 
 import {useBase} from "../utils"
@@ -18,27 +18,13 @@ const NoteLink = ({
   showPopoverForNote,
 }) => {
   const navigate = useNavigate()
-
-  const [isRemote, setIsRemote] = useState(false)
-  const [isTargetOpen, setIsTargetOpen] = useState(false)
-  const [targetNoteId, setTargetNoteId] = useState("")
   const setSearchParams = useSearchParams()[1]
-
   const base = useBase()
-
-  useEffect(() => {
-    setIsRemote(isLinkRemote(href))
-  }, [href])
-
-  useEffect(() => {
-    setTargetNoteId(
-      decodeURIComponent(href.slice(base.length === 1 ? 1 : base.length + 1)),
-    )
-  }, [href, base])
-
-  useEffect(() => {
-    setIsTargetOpen(noteIdsStack.includes(targetNoteId))
-  }, [noteIdsStack, targetNoteId])
+  const isRemote = isLinkRemote(href)
+  const targetNoteId = decodeURIComponent(
+    href.slice(base.length === 1 ? 1 : base.length + 1),
+  )
+  const isTargetOpen = noteIdsStack.includes(targetNoteId)
 
   const extractPathAndAddToStack = useCallback(
     (mouseEvent) => {
@@ -70,31 +56,35 @@ const NoteLink = ({
     ],
   )
 
-  const onMouseEnter = useCallback(
-    (e) => {
+  const onPointerEnter = useCallback(
+    (event) => {
       // console.log('on mouse Enter');
-      if (isRemote) return
+      if (isRemote || event.pointerType !== "mouse") return
       showPopoverForNote({
         noteId: targetNoteId,
-        elementPosition: e.target.getBoundingClientRect(),
+        elementPosition: event.currentTarget.getBoundingClientRect(),
       })
     },
     [isRemote, showPopoverForNote, targetNoteId],
   )
 
-  const onMouseLeave = useCallback(() => {
-    // console.log('on mouse Leave');
-    if (isRemote) return
-    showPopoverForNote()
-  }, [isRemote, showPopoverForNote])
+  const onPointerLeave = useCallback(
+    (event) => {
+      // console.log('on mouse Leave');
+      if (isRemote || event.pointerType !== "mouse") return
+      showPopoverForNote({hidden: true, noteId: targetNoteId})
+    },
+    [isRemote, showPopoverForNote, targetNoteId],
+  )
 
   return (
     <a
       onClick={extractPathAndAddToStack}
       href={href}
       rel="noreferrer"
-      onMouseEnter={onMouseEnter}
-      onMouseLeave={onMouseLeave}
+      onPointerEnter={onPointerEnter}
+      onPointerLeave={onPointerLeave}
+      onPointerCancel={onPointerLeave}
       className={
         "NoteLink " +
         (isTargetOpen ? "open " : "") +
